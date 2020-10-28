@@ -24,18 +24,14 @@ public class Bienvenido extends AppCompatActivity {
         Auth = FirebaseAuth.getInstance();
     }
 
-
-    //METODO PARA EL BOTON InformacionProducto (que me mande a la pantalla registro)
-    //El metodo se llama IrREGISTRO
+    /**
+     * Metodo para abrir la seccion informacion.
+     * @param view Boton que llama al evento.
+     */
     public void IrInformacion(View view){
-        //se crea objeto Intent para hacer que los botones funciones
-        //los parametros se pone (la activity de donde se parte "this", a la que se quiere ir "Registro.class")
-        Intent boton_registro = new Intent(this, InformacionProducto.class);
-        //vamos a indicar el mMETODO starActivity, en los parametros se pone el nombre del OBJETO intent "boton_registro"
-        startActivity(boton_registro);
-
-        //NO olvidar ir al XML y Activar este metodo en el boton (en atributos OnClik
-    }//FIN DE METODO
+        Intent intent = new Intent(this, InformacionProducto.class);
+        startActivity(intent);
+    }
 
 
     //METODO PARA EL BOTON REGISTRO (que me mande a la pantalla registro)
