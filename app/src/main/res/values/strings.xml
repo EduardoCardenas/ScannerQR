@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Scanner QR</string>
+    <string name="nombre">.  Nombre de Usuario</string>
+    <string name="Correo">.  Correo</string>
+    <string name="contrasena">.  Contraseña</string>
+    <string name="confirmar_contrasena">.  Confirmar Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="SinCuenta">¿No tines una cuenta? Registrate</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="logo">Logo</string>
+    <string name="descripcion">descripcion</string>
+    <string name="modificar">Modificar Producto</string>
+    <string name="registrar">Registrar Producto</string>
+    <string name="buscar">Buscar Producto</string>
+    <string name="editar">Editar</string>
+
+    <string name="producto">Producto</string>
+    <string name="clave">Clave</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="Costo">Costo por Unidad</string>
+    <string name="total">Costo Total</string>
+    <string name="fecha">Fecha de Ingreso</string>
+    <string name="caracrteristicas">Caracrteristicas</string>
+    <string name="guardar">Guardar</string>
+    <string name="informacion">Información del Producto</string>
+
+    <string name="fecha2">20/10/2020</string>
+    <string name="eliminar">Eliminar</string>
+
+    <string name="home">Inicio</string>
+    <string name="salir">Cerrar Sesión</string>
+</resources>

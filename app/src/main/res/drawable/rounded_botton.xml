@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //Da la foroma redondita, para hacerlo circlar es 25dp
+    <corners android:radius="50dp"/>
+    //es el color del fondo del botón
+    <solid android:color="#223F65"/>
+
+</shape>
