@@ -30,8 +30,8 @@ public class Registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
 
-        usernameEditText = (EditText) findViewById(R.id.correo);
-        passwordEditText = (EditText) findViewById(R.id.contrasena);
+        usernameEditText = (EditText) findViewById(R.id.etCorreoLogin);
+        passwordEditText = (EditText) findViewById(R.id.etPasswordLogin);
         confirmpasswordEditText = (EditText) findViewById(R.id.confirmar_contrasena);
 
         //"escucha" eventos de inico de sesion (avisa cuando inicio/cerro sesión)

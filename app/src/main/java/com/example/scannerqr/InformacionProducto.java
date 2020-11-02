@@ -50,7 +50,7 @@ public class InformacionProducto extends AppCompatActivity {
                         Auth.signOut();
 
                         //Esto ahce que nos regrese a la pantalla de iniciar sesión
-                        startActivity(new Intent(InformacionProducto.this, MainActivity.class));
+                        startActivity(new Intent(InformacionProducto.this, LoginActivity.class));
                         finish();
                     }
 
